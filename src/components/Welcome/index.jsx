@@ -6,8 +6,8 @@ import './welcome.scss'
 const Index = () => {
 
   const texts = [
-    'Im a developer', 2500,
-    'Im a student', 2500,
+    `I'm a developer`, 2500,
+    `I'm a student`, 2500,
   ];
 
   return (

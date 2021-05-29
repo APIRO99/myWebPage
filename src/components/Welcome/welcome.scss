@@ -7,7 +7,14 @@
   flex-direction: column;
 }
 
-.welcomeContainer * {
+.welcomeContainer h2 {
+  font-family: 'Raleway', sans-serif !important;
+  color: white;
+  font-size: 30px;
+  margin: 15px 0px 15px 0px;
+}
+
+.welcomeContainer span {
   color: white;
   font-size: 30px;
   font-weight: 600;

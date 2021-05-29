@@ -1,5 +1,60 @@
 .aboutme-container {
   width: 100%;
-  height: 100vh;
   background: white;
+  padding: 25px;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: 0px 10px 5px #151313, 0px -10px 5px #00000054;
+}
+
+.about-content {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personal-info {
+  width: 100%;
+  margin: 20px;
+}
+
+.prof-desc {
+  margin: 0px 0px 10px 0px;
+}
+
+
+.about-content img {
+  width: 40vh;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.bullet-points {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+//---------- MEDIA QUERY --------
+
+@media only screen and (min-width: 980px) {
+  .about-content {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .about-content {
+    align-items: flex-start;
+  }
+  
+  .bullet-points {
+    flex-direction: row;
+  }
+
+  .bullet-point {
+    width: 50%;
+  }
 }
